@@ -1,5 +1,6 @@
 # Data-Science-Project
 Predicting the Price of Used Cars in Saudi Arabia.
+
 Abstract:
 The main purpose of my project is to try to predict how used cars will perform so we can help people in Saudi Arabia with how the price will be. Around 1 in 5 cars of the car parc (15 years) was transacted in the Used Car market in 2019. In comparison, for 1 new car sold 2.5 used cars (under 15 years) are sold each year. This ratio is likely to grow in favor of used cars in the next 5 years. First, we made the detailed exploratory analysis. We have decided which metric to use. We analyzed both target and features in detail. We transform categorical variables into numeric so we can use them in the model. We transform numerical variables to reduce skewness and get close to normal distribution. Baseline Model, in our case, RandomForestRegressor model, without and scaling and transformation did a quite a good job. We looked at the results of each model and selected the best one.
 

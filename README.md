@@ -17,7 +17,7 @@ First, we made the detailed exploratory analysis.
 We have decided which metric to use. We analyzed both target and features in detail. We transform categorical variables into numeric so we can use them in the model. We transform numerical variables to reduce skewness and get close to normal distribution. We looked at the results of each model and selected the best one. 
 
 Models
-As predicted in EDA, Price is an important factor in Car Price Prediction. We have obtained 75% Accuracy using Random Forest. We have obtained 35% Accuracy using LinearRegression. We have obtained 29% Accuracy using KNeighborsClassifier.
+As predicted in EDA, Price is an important factor in Car Price Prediction. We have obtained 82% Accuracy using Random Forest. We have obtained 70% Accuracy using Lasso. We have obtained 65% Accuracy using KNeighborsRegressor.
 
 the entire training dataset of 5492 records was split into 80/20 train vs. holdout, and all scores reported below were calculated with 5-fold cross validation on the training portion only. Predictions on the 20% holdout were limited to the very end, so this split was only used, and scores seen just once.
 
